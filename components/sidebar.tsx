@@ -75,7 +75,6 @@ const Sidebar = () => {
       <div className="py-3 py-w flex-1">
         <Link href="/dashboard" className="flex items-center pl-3 mb-14">
           <div className=" relative w-10 h-12  mr-7">
-            <Image fill alt="logo" src="img" />
           </div>
           <h1 className={cn("text-2xl font-bold", montserrat.className)}>
             AiDora

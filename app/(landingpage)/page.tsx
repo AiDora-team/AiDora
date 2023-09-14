@@ -1,11 +1,21 @@
 import { LandingNavbar } from "@/components/landing-navbar";
 import { LandingHero } from "@/components/landing-hero";
+import  SocialIcons from "@/components/SocialIcons";
 
+import "./_social-icons.scss";
+import "./_navbar.scss";
+
+import Navbar from "@/components/Navbar1";
 const LandingPage = () => {
   return ( 
-    <div className="h-full ">
-      <LandingNavbar />
+    <div >
+      <Navbar />
+      <SocialIcons />
       <LandingHero />
+     
+
+
+
     </div>
    );
 }
